@@ -52,7 +52,7 @@ El proyecto implementa autenticación JWT, validación de datos y documentación
 # Instalación del Proyecto
 
 1. Clonar el repositorio:
-   git clone https://github.com/tuusuario/SistemaGestionTareas.git
+   git clone https://github.com/Juanico1/SistemaGestionTareas.git
    cd SistemaGestionTareas
 
 2. Instalar dependencias:
