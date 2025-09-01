@@ -99,6 +99,27 @@ La documentación interactiva está disponible en: **http://localhost:PORT/docs*
 
 ---
 
+# Uso de IA y material durante el desarrollo
+
+En este proyecto utilicé herramientas de Inteligencia Artificial como apoyo en tareas específicas de planeación, productividad y documentación, por ejemplo:
+
+- Planificar el desarollo del proyecto en un tiempo establecido
+- Refinar la redacción de la documentación y comentarios JSDoc
+- Generar ejemplos de `request` y `response` en Swagger
+- Obtener guías paso a paso para validar datos con `express-validator`
+- Sugerencias sobre buenas prácticas para estructurar el README
+
+# Prompts utilizados
+- "Cómo estructurar un proyecto de una API para la gestión de tareas con CRUD (Crear, Leer, Actualizar, Eliminar) y un
+sistema de autenticación y autorización"
+- "Genera un ejemplo de esquema Mongoose para una entidad Task con campos title, description, dueDate y status"
+- "Ejemplo de comentario @openapi para un endpoint GET por ID con parámetro en path"
+- "Cómo organizar un README para un proyecto de API backend con secciones de instalación, uso, endpoints y ejemplos"
+- "Cómo manejar errores globales en Express con un middleware centralizado"
+- "Dame un ejemplo de JSON para crear un task en una API de gestión de tareas"
+- "Cómo devolver mensajes de error personalizados en Express con express-validator"
+- "Ejemplo de @openapi para un endpoint POST que crea un recurso en Swagger JSDoc"
+
 Prueba técnica desarrollada por Juan Nicolás Sanabria Gómez
 Contacto: juanicolas701@gmail.com | +57 3224052439
 
