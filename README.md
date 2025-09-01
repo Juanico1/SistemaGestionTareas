@@ -109,6 +109,13 @@ En este proyecto utilicé herramientas de Inteligencia Artificial como apoyo en 
 - Obtener guías paso a paso para validar datos con `express-validator`
 - Sugerencias sobre buenas prácticas para estructurar el README
 
+También el desarollo esta basado en los siguientes tutoriales
+
+- API REST con Node js y Express | CRUD | MonkeyWit
+- Curso API CRUD - Node.js, Express, MongoDB y Autenticación | FreeCodeCamp
+- Construyendo una API Rest con Node JS + Express JS + TypeScript + TypeORM | Leonardo Jose
+- Aprende a Documentar tu API Node.js con Swagger Autogen y Swagger UI Express | Leonardo Jose
+ 
 # Prompts utilizados
 - "Cómo estructurar un proyecto de una API para la gestión de tareas con CRUD (Crear, Leer, Actualizar, Eliminar) y un
 sistema de autenticación y autorización"
