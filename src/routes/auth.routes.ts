@@ -7,8 +7,8 @@ const r = Router();
 
 r.post(
     "/register", // 1. Endpoint POST /register
-    body("email").isEmail(), // 2. Valid email?
-    body("password").isLength({ min: 6 }), //3. Password with at least 6 characters
+    body("email").isEmail().withMessage("Email is invalid"), // 2. Valid email?
+    body("password").isLength({ min: 6 }).withMessage("Password must be at least 6 characters"), //3. Password with at least 6 characters
     validate, // 4. Middleware
     register // 5. Function
 );
