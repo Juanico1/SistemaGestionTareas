@@ -1,6 +1,18 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 
+/**
+* Authentication middleware for protected routes.
+*
+* Verifies that the request includes a valid JWT token in the `Authorization` header.
+* - If the token is present and valid, it adds `userId` to the `req` object and continues with `next()`.
+* - If the token is missing, invalid, or expired, it returns a 401 (Unauthorized) error.
+*
+* Requirements:
+* - The header must be in the format: `Authorization: Bearer <token>`.
+* - The token is signed using the `JWT_SECRET` environment variable.
+* 
+*/
 export interface AuthRequest extends Request {
     userId?: string;
 }

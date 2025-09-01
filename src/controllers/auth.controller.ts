@@ -3,6 +3,15 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import User from "../models/User";
 
+/**
+ * Register
+ * 
+ * Register a new user with email and password
+ * Validates if a user with that email already exists, 
+ * if not, encrypts the password with "bcrypt" and creates
+ * the user, returns the email and the encrypted password
+ * 
+ */
 export const register = async (req: Request, res: Response) => {
     try {
         const { email, password } = req.body;
@@ -20,6 +29,16 @@ export const register = async (req: Request, res: Response) => {
     }
 };
 
+/**
+ * Login
+ * 
+ * Search for the user by email, if it is not
+ * found it returns user not found, if not, continue, 
+ * then compare the password, if it does not match it 
+ * returns incorrect password, if not it continues, 
+ * it returns authenticated user and the token
+ * 
+ */
 export const login = async (req: Request, res: Response) => {
     try {
         const { email, password } = req.body;

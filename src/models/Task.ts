@@ -1,5 +1,12 @@
 import { Schema, model, Document, Types } from "mongoose";
 
+/**
+ * Represent a task associated with a user
+ * - title: required
+ * - description: optional
+ * - dueDate: deadline
+ * - status: pending | in_progress | done
+ */
 export interface ITask extends Document {
   owner: Types.ObjectId;
   title: string;
