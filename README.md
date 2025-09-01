@@ -97,6 +97,9 @@ La documentación interactiva está disponible en: **http://localhost:PORT/docs*
   
   DELETE /api/tasks/:id → Eliminar tarea
 
+---
 
+Prueba técnica desarrollada por Juan Nicolás Sanabria Gómez
+Contacto: juanicolas701@gmail.com | +57 3224052439
 
 
